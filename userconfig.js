@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Damoh",
     scale: "C",
   },
   clock: {
@@ -17,20 +17,20 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "YouTube",
+              url: "https://youtube.com",
+              icon: "youtube",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
+              name: "Instagram;",
+              url: "https://instagram.com",
               icon: "binary-tree",
               icon_color: palette.peach,
             },
